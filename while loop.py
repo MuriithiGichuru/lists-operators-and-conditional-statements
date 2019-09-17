@@ -28,19 +28,21 @@
 #     print (a)
 #     a = a + 2
 
-savedPin = '0000'
-trials = 3
+# savedPin = '0000'
+# trials = 3
 
 
-enteredPin = input('Enter your pin')
-trials = trials-1
-while savedPin != enteredPin and trials >0: #saved pin is not entered pin
-    enteredPin = input('Enter your pin')
-    trials = trials-1
-else:
-    if trials < 1 and enteredPin != savedPin:
-        print('Card blocked')
-    else:
-        print('Succesful login')
+# enteredPin = input('Enter your pin')
+# trials = trials-1
+# while savedPin != enteredPin and trials >0: #saved pin is not entered pin
+#     enteredPin = input('Enter your pin')
+#     trials = trials-1
+# else:
+#     if trials < 1 and enteredPin != savedPin:
+#         print('Card blocked')
+#     else:
+#         print('Succesful login')
+
+
 
 
