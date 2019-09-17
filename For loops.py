@@ -1,3 +1,5 @@
+
+
 #we use while loops when we DONT have a defined end of a loop.
 #a for loop is used when we have an end. It repeates until maximum is reached.
 # #A for loop will ask when to stop running the program
@@ -158,9 +160,12 @@ sum = 0
 
 
 #Q14. Use for loops to print a diamond like the one below. Allow the user to specify how high the
-#diamond should be.
-tall = int(input('How tall'))
-for i in range (tall,0,2):
-    print('*'*i)
-# for i in range (tall,0,-2):
-#     print('*'*i)
+# #diamond should be.
+# tall = int(input('How tall'))
+# for i in range (tall):
+#     print(' '*(tall-1), '*'*(i*2+1))
+# for i in range(tall,-1,-1):
+#     print(' '*(tall-1),'*'*(i*2+1))
+
+
+
