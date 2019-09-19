@@ -1,18 +1,3 @@
-#
-
-# def print_hello(n):
-#     print('Hello!'* n)
-#     print()
-#
-# print_hello(3)
-# print_hello(5)
-# times = 2
-# print_hello(times)
-
-# def convert(t):
-#     return t*9/5+32
-# print (convert(2))
-
  #TASK 2:
 # Implement a function that takes as input three variables,
 # and returns the largest of the three.
@@ -20,36 +5,57 @@
 # The goal of this exercise is to think about some internals
 # that Python normally takes care of for us
 
-
+#Using the max function
 # def size (a,b,c):
 #     return max(a,b,c)
 #
-# #importing the function
 #
 # length = eval(input('enter length in cm'))
 # width = eval(input('enter width cm'))
 # height = eval(input('enter height cm'))
 #
-# #we are reusing our function
+#importing the function
+
 # max_result = size(length,width,height)
 # print(max_result)
+#
+# NOW TRYING TO CODE WITHOUT THE MAX FUNCTION:
+# Initial attempt
 
-def max(a,b,c):
-    x = [] = a[0]
-    for i in a:
-        if res < i:
-            res = 1
-    return res
+# def max_num(a,b,c):
+#     x = a
+#     y = b
+#     z = c
+#     for i in (x,y,z):
+#         return max()
+#
+# #importing the function
+# length = eval(input('enter length in cm'))
+# width = eval(input('enter width cm'))
+# height = eval(input('enter height cm'))
+#
+# #we are reusing our function
+# max_result = max(length,width,height)
+# print(max_result)
+# #
+# # I have used the max function and but not without it yet
+
+#Amended
+
+def maxi(a,b,c):
+    num = 0
+    if a >=b and a>=c:
+        return a
+    if b >=c and b>=a:
+        return b
+    if c >=a and c>=b:
+        return c
 
 
-
-#importing the function
 length = eval(input('enter length in cm'))
 width = eval(input('enter width cm'))
 height = eval(input('enter height cm'))
 
-#we are reusing our function
-max_result = max(length,width,height)
+# importing function
+max_result = maxi(length,width,height)
 print(max_result)
-
-# we have used the max function and but not without it yet

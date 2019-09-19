@@ -9,21 +9,21 @@
 #First part done as a list
 
 # a = [5, 10, 15, 20, 25]
-# print ("The original list is : " +  str(a))
+# # print ("The original list is : " +  str(a))
 # res = [ a[0], a[-1]]
 # print ("The first and last element of list are : " +  str(res))
 
-# #Done as a function
+# # #Done as a function
 def first_last_element(x):
-    return (x[0], x[-1])
+    return [x[0], x[-1]]
 
-a = [5, 10, 15, 20, 25]
+a = [5, 10, 15, 20]
 res = first_last_element(a)
 print(res)
 
 
 #This has run correctly
-#result is a tupple not a list / string
+
 
 
 
