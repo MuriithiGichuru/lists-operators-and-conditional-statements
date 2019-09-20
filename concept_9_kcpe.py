@@ -1,4 +1,4 @@
-from classes_and_objects import Student
+from concept_9_classes_and_objects import Student
 #Roy is an object of class student
 #roy is a member of class student
 #roy is an instance of class student
